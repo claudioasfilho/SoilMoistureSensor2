@@ -21,7 +21,6 @@ toolchain_settings: []
 component:
 - {id: BGM220PC22HNA}
 - {id: emlib_iadc}
-- {id: app_log}
 - {id: emlib_ldma}
 - {id: bluetooth_feature_connection}
 - {id: bluetooth_feature_gatt_server}
@@ -36,8 +35,6 @@ component:
 - {id: component_catalog}
 - {id: ota_dfu}
 - {id: bootloader_interface}
-- instance: [vcom]
-  id: iostream_eusart
 - {id: rail_util_pti}
 - {id: app_assert}
 - {id: bluetooth_feature_gatt}

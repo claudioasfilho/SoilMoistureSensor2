@@ -146,22 +146,6 @@
             <file name="sli_hfxo_manager.h" linked="false" uri="studio:/sdk/platform/service/hfxo_manager/inc/sli_hfxo_manager.h"/>
           </folder>
         </folder>
-        <folder name="iostream">
-          <folder name="src">
-            <file name="sl_iostream.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream.c"/>
-            <file name="sl_iostream_eusart.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_eusart.c"/>
-            <file name="sl_iostream_retarget_stdio.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c"/>
-            <file name="sl_iostream_stdlib_config.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c"/>
-            <file name="sl_iostream_uart.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_uart.c"/>
-          </folder>
-          <folder name="inc">
-            <file name="sl_iostream.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream.h"/>
-            <file name="sl_iostream_eusart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_eusart.h"/>
-            <file name="sl_iostream_stdlib_config.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_stdlib_config.h"/>
-            <file name="sl_iostream_uart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_uart.h"/>
-            <file name="sli_iostream_uart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sli_iostream_uart.h"/>
-          </folder>
-        </folder>
         <folder name="mpu">
           <folder name="src">
             <file name="sl_mpu.c" linked="false" uri="studio:/sdk/platform/service/mpu/src/sl_mpu.c"/>
@@ -238,7 +222,6 @@
           <file name="em_assert.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_assert.c"/>
           <file name="em_core.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_core.c"/>
           <file name="em_emu.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_emu.c"/>
-          <file name="em_eusart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_eusart.c"/>
           <file name="em_gpio.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_gpio.c"/>
           <file name="em_iadc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_iadc.c"/>
           <file name="em_ldma.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_ldma.c"/>
@@ -261,8 +244,6 @@
           <file name="em_version.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_version.h"/>
           <file name="em_core.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_core.h"/>
           <file name="em_emu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_emu.h"/>
-          <file name="em_eusart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_eusart.h"/>
-          <file name="em_eusart_compat.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_eusart_compat.h"/>
           <file name="em_gpio.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_gpio.h"/>
           <file name="em_iadc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_iadc.h"/>
           <file name="em_ldma.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_ldma.h"/>
@@ -332,11 +313,6 @@
           <folder name="app_assert">
             <file name="app_assert.h" linked="false" uri="studio:/sdk/app/common/util/app_assert/app_assert.h"/>
             <file name="sl_app_assert.h" linked="false" uri="studio:/sdk/app/common/util/app_assert/sl_app_assert.h"/>
-          </folder>
-          <folder name="app_log">
-            <file name="app_log.c" linked="false" uri="studio:/sdk/app/common/util/app_log/app_log.c"/>
-            <file name="app_log.h" linked="false" uri="studio:/sdk/app/common/util/app_log/app_log.h"/>
-            <file name="sl_app_log.h" linked="false" uri="studio:/sdk/app/common/util/app_log/sl_app_log.h"/>
           </folder>
         </folder>
       </folder>
@@ -690,7 +666,6 @@
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/Device/SiliconLabs/BGM22/Include"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/app/common/util/app_assert"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.2/app/common/util/app_log"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/common/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/protocol/bluetooth/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/board/inc"/>
@@ -703,7 +678,6 @@
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/host/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/hfxo_manager/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/iostream/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/util/third_party/crypto/sl_component/sl_mbedtls_support/config"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/util/third_party/crypto/mbedtls/include"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/util/third_party/crypto/mbedtls/library"/>

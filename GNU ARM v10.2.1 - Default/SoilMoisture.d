@@ -97,13 +97,6 @@ SoilMoisture.o: ../SoilMoisture.c \
  /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_prs.h \
  /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_ldma.h \
  /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_letimer.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/app/common/util/app_log/app_log.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/autogen/sl_iostream_handles.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/autogen/sl_iostream_init_eusart_instances.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream_uart.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/config/app_log_config.h \
  ../SoilMoisture.h
 /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/common/toolchain/inc/sl_gcc_preinclude.h:
 /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/autogen/sl_bluetooth.h:
@@ -203,11 +196,4 @@ SoilMoisture.o: ../SoilMoisture.c \
 /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_prs.h:
 /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_ldma.h:
 /Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/emlib/inc/em_letimer.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/app/common/util/app_log/app_log.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/autogen/sl_iostream_handles.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/autogen/sl_iostream_init_eusart_instances.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream_uart.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/gecko_sdk_4.0.2/platform/service/iostream/inc/sl_iostream.h:
-/Users/clfilho/SimplicityStudio/v5_workspace/SoilMoistureSensor2/config/app_log_config.h:
 ../SoilMoisture.h:

@@ -72,7 +72,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
   bd_addr address;
   uint8_t address_type;
   uint8_t system_id[8];
-  static uint8_t sfTimer_counter = 0;
+  //static uint8_t sfTimer_counter = 0;
 
 
 
@@ -123,7 +123,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         sl_bt_advertiser_general_discoverable,
         sl_bt_advertiser_connectable_scannable);
       app_assert_status(sc);
-      app_log("advertising \n\r");
+    //  app_log("advertising \n\r");
 
       Measure_SoilMoisture();
 
@@ -194,7 +194,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event indicates that a new connection was opened.
     case sl_bt_evt_connection_opened_id:
 
-      app_log("Connected to Central \n\r");
+     // app_log("Connected to Central \n\r");
 
       //sc = sl_bt_connection_set_parameters(evt->data.evt_connection_parameters.connection, 2000, 2000, 0, 1000, 0, 65535);
 
