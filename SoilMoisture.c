@@ -50,10 +50,17 @@
 #include "em_prs.h"
 #include "em_ldma.h"
 #include "em_letimer.h"
-//#include "app_log.h"
 
 
 #include "SoilMoisture.h"
+
+
+#ifdef UART_ENABLED
+#include "app_log.h"
+#endif
+
+
+
 
 /*******************************************************************************
  *******************************   DEFINES   ***********************************
@@ -379,7 +386,11 @@ uint32_t Get_SensMoistData(void)
       avg = singleBuffer[0];//(singleBuffer[0]+singleBuffer[1]+singleBuffer[2]+singleBuffer[3]+singleBuffer[4])/5;
       Sensor_data.data = singleBuffer[0];
 
-      //app_log("Average = %d \n\r", avg);
+      #ifdef UART_ENABLED
+      app_log("Average = %d \n\r", avg);
+      #endif
+
+
 
       sl_bt_gatt_server_write_attribute_value(gattdb_SoilHumData,0,sizeof(Sensor_data.array),Sensor_data.array);
       data_available = 0;

@@ -32,6 +32,7 @@
 #define SENSOR_POWER_PIN  1
 #define ADC_INT_IRQ 0xaaaa
 
+//#define UART_ENABLED
 
 
 typedef union {
